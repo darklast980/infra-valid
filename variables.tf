@@ -11,3 +11,7 @@ variable db_username {
 variable db_password {
   default = "Document DB password"
 }
+
+variable app_name {
+  default = "infra-valid"
+}

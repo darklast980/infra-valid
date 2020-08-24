@@ -3,6 +3,8 @@ resource "aws_docdb_cluster" "default" {
   availability_zones = ["${var.region}a", "${var.region}b", "${var.region}c"]
   master_username    = var.master_username
   master_password    = var.master_password
+  deletion_protection = var.deletion_protection
+  skip_final_snapshot = var.skip_final_snapshot
 
   tags = {
     "Description" = "Document DB cluster ${var.cluster_identifier}"
