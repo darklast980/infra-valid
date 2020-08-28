@@ -17,6 +17,7 @@ module "ecr" {
   image_name = var.app_name
 }
 
+/*
 module "ecs" {
   source = "./src/ecs"
 
@@ -24,4 +25,4 @@ module "ecs" {
 
   image = module.ecr.repository
 }
-
+*/ 

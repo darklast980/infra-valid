@@ -9,7 +9,3 @@ output "repository" {
 output "name" {
   value = aws_ecr_repository.app.name
 }
-
-output "image_name" {
-    value = ""
-}
