@@ -4,7 +4,7 @@ const querystring = require('querystring');
 var options = {
     host: 'api.github.com',
     port: 443,
-    path: '/repos/hmanzur/terraform-aws-ecs-test/dispatches',
+    path: '/repos/darklast980/infra-valid/dispatches',
     method: 'POST',
     headers: {
         'Accept': 'application/vnd.github.v3+json',
